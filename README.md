@@ -1,10 +1,10 @@
 # Fir cu Suflet Handmade
 
-A single-page marketing site for a Romanian handmade crafts shop (bracelets, keychains, dolls, macramé), built with plain static HTML and CSS.
+A single-page marketing site for a Romanian handmade crafts shop (bracelets, keychains, dolls, macramé), built with static HTML, CSS, and minimal inline JavaScript.
 
 ## Technologies
 
-- Static HTML5 + CSS (no build step, no framework)
+- Static HTML5 + CSS + minimal inline JavaScript (no build step, no framework)
 
 ## Structure
 
@@ -21,4 +21,11 @@ npx serve .
 
 ## Images
 
-The hero background (`images/1.png`) and gallery photos (`images/bratari.jpg`, `images/set-cuplu.jpg`, `images/breloc.jpg`, `images/breloc-personalizat.jpg`, `images/papusa.jpg`, `images/papusa-personalizata.jpg`, `images/ornament-auto.jpg`, `images/macrame.jpg`) are not included and need to be added to the `images/` folder before the gallery and hero will display images.
+The hero background (`images/1.png`) and gallery photos need to be added to the `images/` folder before the gallery and hero will display images.
+
+## Features
+
+- **Smooth scroll navigation** — click nav links for smooth animated scroll to sections
+- **Product card animations** — cards fade in and slide up as they come into view
+- **Gallery hover effects** — images scale up on hover for better interactivity
+- **WhatsApp integration** — direct ordering via WhatsApp links
